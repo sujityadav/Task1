@@ -12,11 +12,7 @@ const myCatamaran = Catamaran({
 })
 export default function index() {
 
-  
-  const [userName,setUserName] = useState("");
-  const [password,setPassword] = useState("");
-  const [error,setError] = useState("")
-  const [buttonText,setButtonText] = useState("Sign In");
+
 
  
 
@@ -32,7 +28,7 @@ export default function index() {
      
      
       <main className={myCatamaran.className}>
-        <div className="xl:my-[4.431vw] my-[30px] min-h-screen px-[20px] xl:px-[3.819vw] xl:space-y-[3.472vw] space-y-[30px]">
+        <div className="xl:my-[4.431vw] my-[40px] px-[20px] xl:px-[3.819vw] xl:space-y-[3.472vw] space-y-[30px]">
             <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-[14px] xl:gap-[0.833vw] mb-[32px] xl:mb-[2.09vw]"> 
               <div className="mb-[20px] xl:mb-[1.389vw]" data-aos="fade-up" data-aos-duration="800">
                 <div className="relative">
@@ -80,16 +76,16 @@ export default function index() {
             </div>
 
             
-              <div data-aos="fade-up" data-aos-duration="1200">
-              <div className="relative">
+              <div className="xl:mb-[4.431vw] mb-[40px]" data-aos="fade-up" data-aos-duration="1200">
+              <div className="relative ">
                    
 
                     <Image src={"/assets/images/invocation_img.png"} width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
-                    <h6 className="absolute top-8 xl:left-8 left-3 text-[#fff] xl:text-[0.972vw] text-[14px] font-normal">Invocation</h6>
+                    <h6 className="absolute xl:top-8  top-3  xl:left-8 left-3 text-[#fff] xl:text-[0.972vw] text-[12px] font-normal">Invocation</h6>
                     <div className="absolute xl:bottom-8 bottom-2 xl:left-8 left-3 xl:w-[40.722vw] w-[200px]">
-                    <h2 className=" text-[#fff] xl:text-[2.431vw] text-[18px] font-normal  leading-tight">How to optimize your pages to get more traffic on mobile devices</h2>
+                    <h2 className=" text-[#fff] xl:text-[2.431vw] text-[14px] font-normal  leading-tight">How to optimize your pages to get more traffic on mobile devices</h2>
 
-                    <div className="xl:mt-[2.083vw] mt-[20px]">
+                    <div className="xl:mt-[2.083vw] mt-[5px]">
                        <Link href='' className=" text-[#fff] xl:text-[1.111vw] text-[12px] font-medium"> Read More <i className="pi pi-arrow-right xl:text-[0.803vw] text-[10px] ml-[10px]"></i> </Link>
                     </div>
                     </div>
